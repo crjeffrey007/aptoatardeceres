@@ -2442,3 +2442,23 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     }
 }
 /*# sourceMappingURL=../sourcemaps/room.css.map */
+.footer_main {
+    display: flex;
+    width: 100%;
+}
+
+.footer_main-block--about {
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+.footer_main-block--contacts {
+    width: 30%;
+    flex: 0 0 30%;
+}
+
+.footer_main-block--follow {
+    width: 20%;
+    flex: 0 0 20%;
+}
+
